@@ -7,6 +7,7 @@ from zipfile import ZipFile
 
 from cinema_facts import choose_cols_marque
 
+#Note: To run, do `pytest tests.py`
 
 def test_choose_cols_marque():
     mock_marque_dict = {
